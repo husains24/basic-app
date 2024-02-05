@@ -1,4 +1,4 @@
-import img from "../../assets/react-core-concepts.png";
+import img from "../../../assets/react-core-concepts.png";
 import "./Header.css";
 
 const descContent = [
@@ -6,11 +6,11 @@ const descContent = [
   "MERN Stack Developer",
   "Web Application Developer",
 ];
-const getnerateDeveloper = (max) => {
+const generateDeveloper = (max) => {
   return Math.floor(Math.random() * (max + 1));
 };
 const Header = () => {
-  const description = descContent[getnerateDeveloper(2)];
+  const description = descContent[generateDeveloper(2)];
   return (
     <header>
       <img src={img} alt="logo" />

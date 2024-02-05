@@ -11,17 +11,20 @@ header img {
 
 header h1 {
   margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 5rem;
-  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
-  -webkit-background-clip: text;
+  background: linear-gradient(40deg, #00ff11, #00ff11, #03d5ff, #03d5ff);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
 
 header p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   color: #8964b0;
+  background: linear-gradient(30deg, #eaff00, #eaff00, #00e1ff, #00e1ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: "Roboto Condensed", sans-serif;
 }
