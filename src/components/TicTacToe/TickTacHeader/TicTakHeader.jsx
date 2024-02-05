@@ -1,4 +1,5 @@
 import img from "../../../assets/game-logo.png";
+import GameBoard from "./Player/GameBoard";
 import Player from "./Player/Player";
 import "./TicTacToe.css";
 export default function TicTakHeader() {
@@ -13,7 +14,7 @@ export default function TicTakHeader() {
           <Player initialName="Player 1" symbol="X" />
           <Player initialName="Player 2" symbol="O" />
         </ol>
-        Game Board
+        <GameBoard />
       </div>
     </>
   );
